@@ -8,6 +8,10 @@ class App extends Component {
         nowTime : ''
     }
   }
+
+  componentDidMount(){
+    
+  }
 }
 
 export default App;
