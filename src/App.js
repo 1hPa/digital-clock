@@ -10,7 +10,11 @@ class App extends Component {
   }
 
   componentDidMount(){
-    
+    setInterval(() => ){
+      this.setState({
+        nowTime: this.getTime(this.state.timelag)
+      });
+    }, 1000)
   }
 }
 
