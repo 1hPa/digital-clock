@@ -24,6 +24,9 @@ class App extends Component {
     let year = nowTime.getFullYear()
     let month = nowTime.getMonth() + 1
     let date = nowTime.getDate()
+    let hours = nowTime.getHours()
+    let minutes = nowTime.getMinutes()
+    let seconds = nowTime.getSeconds()
   }
 }
 
