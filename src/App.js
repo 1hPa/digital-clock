@@ -16,6 +16,10 @@ class App extends Component {
       });
     }, 1000)
   }
+
+  //Get date and time
+  getTime(timelag = 0) {
+  }
 }
 
 export default App;
