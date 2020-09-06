@@ -19,6 +19,7 @@ class App extends Component {
 
   //Get date and time
   getTime(timelag = 0) {
+    let japanTime = new Date().getTime()
   }
 }
 
