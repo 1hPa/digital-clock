@@ -20,6 +20,7 @@ class App extends Component {
   //Get date and time
   getTime(timelag = 0) {
     let japanTime = new Date().getTime()
+    let nowTime = new Date(japaneTime + timelag*60*60*1000)
   }
 }
 
