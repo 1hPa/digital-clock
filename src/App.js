@@ -21,6 +21,9 @@ class App extends Component {
   getTime(timelag = 0) {
     let japanTime = new Date().getTime()
     let nowTime = new Date(japaneTime + timelag*60*60*1000)
+    let year = nowTime.getFullYear()
+    let month = nowTime.getMonth() + 1
+    let date = nowTime.getDate()
   }
 }
 
