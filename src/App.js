@@ -33,6 +33,7 @@ class App extends Component {
     if (seconds < 10) seconds = `0${seconds}`
 
     const time = `${year}? ${month}? ${date}? ${hours}:${minutes}:${seconds}`
+    return time
   }
 }
 
