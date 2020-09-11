@@ -35,6 +35,8 @@ class App extends Component {
     const time = `${year}? ${month}? ${date}? ${hours}:${minutes}:${seconds}`
     return time
   }
+    doChange = (e) => {
+  }
 }
 
 export default App;
