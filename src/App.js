@@ -36,6 +36,7 @@ class App extends Component {
     return time
   }
     doChange = (e) => {
+      e.preventDefault()
   }
 }
 
