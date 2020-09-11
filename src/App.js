@@ -37,6 +37,9 @@ class App extends Component {
   }
     doChange = (e) => {
       e.preventDefault()
+      this.setState({
+      timelag: e.target.value
+    })
   }
 }
 
